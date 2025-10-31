@@ -1,21 +1,80 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Pranshu Zade - Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Pranshu Zade — Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Welcome to My Portfolio</h1>
-    <h2>Pranshu Zade</h2>
-    <p><b>Intro:</b><br> 
-        my name is Pranshu Zade. I have completed my graduation in Bachelor of Computer Applications (BCA) degree from RTM Nagpur University. I have a keen interest in computer applications and technology. Through my academic journey, I have developed skills in various areas such as MS Office, internet research, presentation design, and basic troubleshooting. I am enthusiastic about learning new technologies and enhancing my skills to contribute effectively in the field of computer applications.
-    </p>
+        <div class="bg-visuals" aria-hidden="true"></div>
+        <div class="site-wrap">
+            <header class="site-header">
+                        <div class="brand">
+                                            <div class="logo">
+                                                <img src="assets/profile.jpg" srcset="assets/profile.jpg 1x, assets/profile@2x.jpg 2x" alt="Pranshu Zade" loading="lazy" width="56" height="56" />
+                                            </div>
+                            <div>
+                        <div style="font-weight:700">Pranshu Zade</div>
+                        <div class="muted" style="font-size:0.85rem">BCA • Web & Productivity Enthusiast</div>
+                    </div>
+                </div>
+                <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                    <span class="bar" aria-hidden="true"></span>
+                </button>
+                <nav class="site-nav" aria-label="Primary">
+                    <a href="index.html">Home</a>
+                    <a href="education.html">Education</a>
+                    <a href="skills.html">Skills</a>
+                    <a href="achievements.html">Achievements</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </header>
 
-    <h3>DETAILS</h3>
-    <ul>
-        <li><a href="education.html">Education</a></li>
-        <li><a href="skills.html">Skills</a></li>
-        <li><a href="achievements.html">Achievements</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
-</body>
-</html>
+        <main>
+            <section class="hero">
+                <div class="hero-inner">
+                    <h1>Hello — I'm Pranshu</h1>
+                    <p class="muted">A recent BCA graduate from RTM Nagpur University. I enjoy building efficient solutions, improving workflows, and learning modern web development. Currently exploring JavaScript, responsive UI, and automation.</p>
+                    <div class="cta">
+                        <a class="btn" href="contact.html">Get in touch</a>
+                        <a class="btn ghost" href="achievements.html">View achievements</a>
+                    </div>
+                </div>
+
+                <aside class="card">
+                    <h3>Quick facts</h3>
+                    <p class="muted">Location: Nagpur, India</p>
+                    <p class="muted">Email: <a href="mailto:pranshuzade@gmail.com" style="color:var(--accent);text-decoration:none">pranshuzade@gmail.com</a></p>
+                    <div style="margin-top:10px"><span class="tag">Graduated 2025</span></div>
+                </aside>
+            </section>
+
+            <section class="section">
+                <h2>What I do</h2>
+                <div class="cards">
+                    <div class="card">
+                        <h3>Web fundamentals</h3>
+                        <p class="muted">HTML, CSS, responsive layouts, and learning JavaScript to build interactive pages.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Productivity</h3>
+                        <p class="muted">MS Office, Google tools, and presentation design — I enjoy turning data into clear slides and docs.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Problem solving</h3>
+                        <p class="muted">Practical troubleshooting and learning new techniques from online resources.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div>© <strong>Pranshu Zade</strong> — 2025</div>
+            <div class="muted">Built with HTML & CSS • Designed for clarity</div>
+        </footer>
+            <script src="script.js"></script>
+        </div>
+    </body>
+    </html>
